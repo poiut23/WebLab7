@@ -1,0 +1,75 @@
+#bg {
+    background: linear-gradient(to bottom, #1e5799 1%,#1e5799 99%,#1e5799 99%,#7db9e8 100%);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#main-title {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+
+#planet-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#planet-table thead {
+    background-color: #006699;
+    color: white;
+}
+ 
+#planet-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+#planet-table th {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#planet-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#planet-table tbody tr:hover {
+    background-color: #d0e6f7;
+}
+
+#planet-table td {
+    font-size: 0.9em;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+    font-size: 0.9em;
+}
